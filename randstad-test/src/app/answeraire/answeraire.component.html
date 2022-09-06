@@ -1,0 +1,6 @@
+<p *ngIf="answer">
+    Your answer is&nbsp;<span [ngClass]="{
+        'red-font': answer === 'Red',
+        'blue-font': answer === 'Blue',
+        'green-font': answer === 'Green'}">{{answer}}</span>
+</p>

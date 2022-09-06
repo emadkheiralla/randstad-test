@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'randstad-test';
+  answer: string = '';
+  changeAnswer(event: any){
+    this.answer = event;
+  }
 }
