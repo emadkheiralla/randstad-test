@@ -1,8 +1,8 @@
 <form [formGroup]="form">
     <p>What is your favorite color?</p>
     <mat-radio-group class="my-radio-group" aria-label="Select an option" formControlName="question">
-        <mat-radio-button (change)="changeAnswer($event)" value="Red">Red</mat-radio-button>
-        <mat-radio-button (change)="changeAnswer($event)" value="Blue">Blue</mat-radio-button>
-        <mat-radio-button (change)="changeAnswer($event)" value="Green">Green</mat-radio-button>
+        <mat-radio-button class="my-radio-btn" (change)="changeAnswer($event)" value="Red">Red</mat-radio-button>
+        <mat-radio-button class="my-radio-btn" (change)="changeAnswer($event)" value="Blue">Blue</mat-radio-button>
+        <mat-radio-button class="my-radio-btn" (change)="changeAnswer($event)" value="Green">Green</mat-radio-button>
     </mat-radio-group>
 </form>
